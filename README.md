@@ -34,16 +34,16 @@ This project explores a comprehensive **hotel booking dataset** to discover acti
 ## 📉 Key Visualizations
 
 ### 🏷️ ADR (Average Daily Rate) Distribution
-![ADR Distribution](images/adr_distribution.png)
+![ADR Distribution](image/adr_distribution.png)
 
 ### ⏳ Lead Time Distribution
-![Lead Time](images/lead_time_distribution.png)
+![Lead Time](image/lead_time_distribution.png)
 
 ### 👥 Total Guests per Booking
-![Total Guests](images/total_guests.png)
+![Total Guests](image/total_guests.png)
 
 ### 📦 Special Requests Frequency
-![Special Requests](images/special_requests.png)
+![Special Requests](image/special_requests.png)
 
 ---
 
