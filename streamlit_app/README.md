@@ -42,49 +42,53 @@ A comprehensive, interactive dashboard for hotel booking data analysis built wit
 
 ## 🚀 Quick Start
 
-### Prerequisites
-- Python 3.8+
-- pip package manager
-
-### Installation
-
+### Local Development
 1. **Clone or download the project files**
 2. **Install dependencies:**
    ```bash
-   pip install -r requirements.txt
+   pip install -r streamlit_app/requirements.txt
    ```
-
 3. **Run the dashboard:**
    ```bash
-   streamlit run app.py
+   streamlit run streamlit_app/src/hotel_dashboard.py
    ```
-
 4. **Open your browser** and navigate to `http://localhost:8501`
+
+---
+
+## ☁️ Deploy on Streamlit Community Cloud
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit.io/cloud?repo=Vineet-Singh0/Hotel_Booking_Analysis)
+
+1. Push your code to GitHub (this repo)
+2. Go to [https://streamlit.io/cloud](https://streamlit.io/cloud) and sign in
+3. Click "New app" and select this repository
+4. Set the main file path to:
+   ```
+   streamlit_app/src/hotel_dashboard.py
+   ```
+5. Set the requirements file path to:
+   ```
+   streamlit_app/requirements.txt
+   ```
+6. Click "Deploy" and your app will be live!
+
+---
 
 ## 📁 Project Structure
 
 ```
-hotel-dashboard/
-├── app.py                 # Main entry point
-├── requirements.txt       # Python dependencies
-├── README.md             # Project documentation
-├── src/                  # Source code
-│   └── hotel_dashboard.py # Main dashboard application
-├── data/                 # Data files
-│   └── hotel_bookings.csv # Hotel booking dataset
-├── config/               # Configuration files
-│   └── config.py         # Dashboard configuration
-├── scripts/              # Utility scripts
-│   └── deploy.py         # Deployment script
-├── docs/                 # Documentation and notebooks
-│   ├── file.ipynb        # Original analysis notebook
-│   ├── explaination.ipynb # Educational notebook
-│   └── new.ipynb         # ML experiments
-└── assets/               # Generated visualizations
-    ├── adr_distribution.png
-    ├── lead_time_distribution.png
-    ├── special_requests.png
-    └── total_guests.png
+Hotel_Booking_Analysis/
+├── streamlit_app/
+│   ├── src/hotel_dashboard.py   # Main Streamlit app
+│   ├── requirements.txt         # Python dependencies
+│   ├── README.md                # Project documentation
+│   └── ...
+├── data/
+│   └── hotel_bookings.csv       # Hotel booking dataset
+├── assets/                      # Images for dashboard
+│   └── ...
+└── ...
 ```
 
 ## 🎯 Key Insights
@@ -222,5 +226,9 @@ For issues or questions:
 3. Create an issue on GitHub
 
 ---
+
+## 📫 Contact
+
+For questions, feedback, or collaboration, connect with me on [LinkedIn](https://www.linkedin.com/in/vineet-vinod-singh/).
 
 **Built with ❤️ using Streamlit and Plotly** 
